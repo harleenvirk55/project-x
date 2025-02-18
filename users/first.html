@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root selector</title>
+    <link rel="stylesheet" href="iti.css">
+    <style>
+        .container{
+            border: 10px solid black;
+            display: flex;
+            height: 300px;
+            flex wrap: wrap;
+            background-color: red;
+}
+
+@media (width : 600px) {
+    div {
+        background-color: blueviolet;
+    }
+
+@media (min-width : 500px){
+    div{
+        background-size: cover;
+    }
+}    
+}
+</style>
+</head>
+<body>
+<h1 id="headingOne">Harleen</h1>
+<h3 class="myClass">is a student</h3>
+<h4>she likes stars</h4>
+<button>click</button>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aperiam hic facilis soluta commodi obcaecati at amet, alias, quibusdam repellendus error veritatis, unde repudiandae quisquam et nam cupiditate fuga nulla.</p>
+<p2>this is a paragraph,this is all about animals</p2>
+<div class="container">
+<div style="flex-grow: 3;">1</div>
+<div style="flex-shrink: 2;">2</div>
+<div style="align-self: normal;">center</div>
+</div>
+</body>
+</html>

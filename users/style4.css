@@ -1,0 +1,40 @@
+*{
+    padding=0;
+    margin=0;
+    color:white;
+}
+
+#navbar{
+    height: 100px;
+    width: 1600px;
+    background-color:black;
+}
+
+#logo{
+    color: orange;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    margin-right: 250px;
+    text-decoration: none;
+}
+
+button{
+    background-color:brown;
+}
+
+.contentbox{
+    height: 160px;
+    width: 1600px;
+    border: 2px solid black;
+    display : inline-block;s
+}
+
+footer{
+    height: 130px;
+    width: 1600px;
+    background-color: black;
+}
+
